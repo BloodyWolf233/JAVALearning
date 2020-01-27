@@ -1,6 +1,8 @@
-# 一、JAVA基础
 
-## 1.1 计算机基础知识
+
+
+
+# 一、 计算机基础知识
 
 ###### 二进制
 
@@ -8,13 +10,17 @@
 
 下面了解一下十进制和二进制数据之间的转换计算。 
 
-**十进制数据转成二进制数据**：使用除以2获取余数的方式![](../../JAVA基础教程/1 JAVA语言/参考/01-二进制与十进制的转换运算.png)
+**十进制数据转成二进制数据**：使用除以2获取余数的方式
 
-​	**二进制数据转成十进制数据**：使用8421编码的方式![](../../JAVA基础教程/1 JAVA语言/参考/02-二进制与十进制的转换运算.png)
+![](/参考/01-二进制与十进制的转换运算.png)
+
+​	**二进制数据转成十进制数据**：使用8421编码的方式
+
+![](参考/02-二进制与十进制的转换运算.png)
 
 > 小贴士：
 >
->  二进制数系统中，每个0或1就是一个位，叫做bit（比特）。
+> 二进制数系统中，每个0或1就是一个位，叫做bit（比特）。
 
 ###### 字节
 
@@ -38,6 +44,7 @@
 Java语言的初学者，学习一些DOS命令，会非常有帮助。DOS是一个早期的操作系统，现在已经被Windows系统取代，对于我们开发人员，目前需要在DOS中完成一些事情，因此就需要掌握一些必要的命令。 
 
 - 进入DOS操作窗口
+
   - 按下Windows+R键盘，打开运行窗口，输入cmd回车，进入到DOS的操作窗口。
   - 打开DOS命令行后，看到一个路径 c:\user 就表示我们现在操作的磁盘是c盘。
 
@@ -54,18 +61,18 @@ Java语言的初学者，学习一些DOS命令，会非常有帮助。DOS是一�
   | 清屏               | `cls`                        |
   | 退出               | `exit`                       |
 
-## 1.2 JAVA语言开发环境
+# 二、 JAVA语言开发环境
 
-### 1.2.1 Java虚拟机——JVM
+## 2.1 Java虚拟机——JVM
 
 - **JVM**（Java Virtual Machine ）：Java虚拟机，简称JVM，是运行所有Java程序的假想计算机，是Java程序的 运行环境，是Java 最具吸引力的特性之一。我们编写的Java代码，都运行在 `JVM `之上。
 - **跨平台**：任何软件的运行，都必须要运行在操作系统之上，而我们用Java编写的软件可以运行在任何的操作系 统上，这个特性称为**Java语言的跨平台特性**。该特性是由JVM实现的，我们编写的程序运行在JVM上，而JVM 运行在操作系统上。
 
-![](../../JAVA基础教程/1 JAVA语言/参考/03-JVM.png)
+![](/参考/03-JVM.png)
 
 如图所示，Java的虚拟机本身不具备跨平台功能的，每个操作系统下都有不同版本的虚拟机。
 
-### 1.2.2 JRE和JDK
+## 2.2 JRE和JDK
 
 - JRE (Java Runtime Environment) ：是Java程序的运行时环境，包含`JVM`和运行时所需要的`核心类库` 。
 - JDK (Java Development Kit)：是Java程序开发工具包，包含`JRE`和开发人员使用的工具。
@@ -74,13 +81,13 @@ Java语言的初学者，学习一些DOS命令，会非常有帮助。DOS是一�
 
 我们想要开发一个全新的Java程序，那么必须安装`JDK`。
 
-![](../../JAVA基础教程/1 JAVA语言/参考/04-jdk.png)
+![](/参考/04-jdk.png)
 
 > 小贴士： 
 >
 > 三者关系： JDK > JRE > JVM
 
-### 1.2.3 jdk的安装与环境变量的配置
+## 2.3 jdk的安装与环境变量的配置
 
 ###### oracle官方jdk[下载地址](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
 
@@ -94,11 +101,11 @@ Java语言的初学者，学习一些DOS命令，会非常有帮助。DOS是一�
 
 开发环境已经搭建完毕，可以开发我们第一个Java程序了。 Java程序开发三步骤：编写、编译、运行。
 
-![image-20200126192524226](参考/05-程序开发步骤.png)
+![](参考/05-程序开发步骤.png)
 
-## 1.3 第一个Java程序
+# 三、 第一个Java程序
 
-### 1.3.1 HelloWorld
+## 3.1 HelloWorld
 
 1. 在`d:\javacode`目录下新建文本文件，完整的文件名修改为`HelloWorld.java`，其中文件名为`HelloWorld`，后缀名必须为`.java`。
 2. 用记事本打开。
@@ -117,7 +124,7 @@ public class HelloWorld {
 
 第一个`HelloWord`源程序就编写完成了，但是这个文件是程序员编写的，JVM是看不懂的，也就不能运行，因此我 们必须将编写好的`Java源文件`编译成JVM可以看懂的`字节码文件`。
 
-### 1.3.2 编译Java源文件
+## 3.2 编译Java源文件
 
 在DOS命令行中，进入**Java源文件的目录**，使用`javac`命令进行编译。
 
@@ -137,7 +144,7 @@ javac HelloWorld.java
 
 > Java源文件的编译工具`javac.exe`，在JDK安装目录的bin目录下。但是由于配置了环境变量，可以再任意目录下使用。
 
-### 1.3.3 运行Java程序
+## 3.3 运行Java程序
 
 在DOS命令行中，进入Java源文件的目录，使用 java 命令进行运行。
 
@@ -157,7 +164,7 @@ java HelloWorld
 >
 > Java程序`.class文件`的运行工具`java.exe`，在JDK安装目录的bin目录下。但是由于配置了环境变量，可以再任意目录下使用。
 
-## 1.4 说明
+## 3.3 说明
 
 ###### 编译和运行时两回事
 
@@ -195,13 +202,13 @@ java HelloWorld
   - 方法名规范： 首字母小写，后面每个单词首字母大写（小驼峰式）。
   - 变量名规范：全部小写。
 
-## 1.5 常量
+# 四、 数据
 
-### 1.5.1 概述
+## 4.1 常量
 
 **常量：是指在Java程序中固定不变的数据。**
 
-### 1.5.2 分类
+### 4.1.1 分类
 
 | 类型       | 含义                                       | 数据举例                 |
 | ---------- | ------------------------------------------ | ------------------------ |
@@ -212,7 +219,7 @@ java HelloWorld
 | 布尔常量   | 只有两个值                                 | true, false              |
 | 空常量     | 只有一个值                                 | null                     |
 
-### 1.5.3 练习
+### 4.1.2 练习
 
 需求：输出各种类型的常量。
 
@@ -233,9 +240,7 @@ public class ConstantDemo {
 }
 ```
 
-## 1.6 变量和数据类型
-
-### 1.6.1 变量概述
+## 4.2 变量和数据类型
 
 - 变量：常量是固定不变的数据，那么在程序中可以变化的量称为变量。
 
@@ -245,7 +250,7 @@ public class ConstantDemo {
 
 Java中要求一个变量每次只能保存一个数据，必须要明确保存的数据类型
 
-### 1.6.2 数据类型
+### 4.2.1 数据类型
 
 ###### 数据类型分类
 
@@ -272,7 +277,7 @@ Java的数据类型分为两大类：
 
 > Java中的默认类型：整数类型是`int`、浮点类型是`double`。
 
-### 1.6.3 变量的定义
+### 4.2.2 变量的定义
 
 变量定义的格式包括三个要素：`数据类型`、`变量名`、`数据值`。
 
@@ -326,11 +331,11 @@ public class Variable {
 - 变量名称：在同一个大括号范围内，变量的名字不可以相同。
 - 变量赋值：定义的变量，不赋值不能使用。
 
-## 1.7 数据类型转换
+## 4.3 数据类型转换
 
 Java程序中要求参与的计算的数据，必须要保证数据类型的一致性，如果数据类型不一致将发生类型的转换。
 
-### 1.7.1 自动类型转换
+### 4.3.1 自动类型转换
 
 范围小的类型向范围大的类型提升，`byte`、`short`、`char`运算时直接提升为`int`。
 
@@ -338,7 +343,7 @@ Java程序中要求参与的计算的数据，必须要保证数据类型的一�
 byte、short、char‐‐>int‐‐>long‐‐>float‐‐>double
 ```
 
-![img](参考/05-自动类型转换.png)
+![](/参考/06-自动类型转换.png)
 
 > 注意：
 >
@@ -352,7 +357,7 @@ byte、short、char‐‐>int‐‐>long‐‐>float‐‐>double
 2. 整个算数表达式的数据类型自动提升到与表达式中最高等级操作数同样的类型。
 3. java中整数类型默认是`int`类型，小数类型默认是`double`类型。
 
-### 1.7.2 强制类型转换
+### 4.3.2 强制类型转换
 
 强制类型转换：将`取值范围大的类型`强制转换成`取值范围小的类型`。 比较而言，自动转换是Java自动执行的，而强制转换需要我们自己手动执行。
 
@@ -385,7 +390,7 @@ public static void main(String[] args) {
 > - 浮点转成整数，直接取消小数点，可能造成数据损失精度。
 > - `int`强制转成`short`砍掉2个字节，可能造成数据丢失。
 
-### 1,7.3 ASCII编码表
+### 4.3.3 ASCII编码表
 
 ```java
 public static void main(String[] args) {
@@ -419,9 +424,9 @@ public static void main(String[] args) {
 
 上面在`char`类型和`int`类型计算的过程中，`char`类型的字符先查询编码表，得到97，再和1求和，结果为98。`char`类型提升为了`int`类型。`char`类型内存2个字节，`int`类型内存4个字节。
 
-### 1.7.4 运算符
+## 4.4 运算符
 
-#### 1.7.4.1 算术运算符
+### 4.4.1 算术运算符
 
 | 算术运算符 |                          |
 | ---------- | ------------------------ |
@@ -488,7 +493,7 @@ public static void main(String[] args){
 }
 ```
 
-#### 1.7.4.2 赋值运算符
+### 4.4.2 赋值运算符
 
 | 赋值运算符 |        |
 | ---------- | ------ |
@@ -510,7 +515,7 @@ public static void main(String[] args){
 
 ```
 
-#### 1.7.4.3 比较运算符
+### 4.4.3 比较运算符
 
 | 比较运算符 |                                                              |
 | ---------- | ------------------------------------------------------------ |
@@ -534,7 +539,7 @@ public static void main(String[] args) {
 }
 ```
 
-#### 1.7.4.4 逻辑运算符
+### 4.4.4 逻辑运算符
 
 | 逻辑运算符 |                                                              |
 | ---------- | ------------------------------------------------------------ |
@@ -556,7 +561,7 @@ public static void main(String[] args) {
 }
 ```
 
-#### 1.7.4.5 三元运算符
+### 4.4.5 三元运算符
 
 格式：
 
@@ -578,7 +583,7 @@ public static void main(String[] args) {
 
 ```
 
-#### 1.7.4.6 运算优先级
+### 4.4.6 运算优先级
 
 程序的基本功能是处理数据，任何编程语言都有自己的运算符。因为有了运算符，程序员才写出表达式，实现各种运算操作，实现各种逻辑要求。
 
@@ -596,7 +601,7 @@ public static void main(String[] args) {
 | 6                  | 三目运算符               | 右结合   | 布尔表达式?表达式1:表达式2                                |
 | 7                  | 赋值运算符               | 右结合   | `=` `*=` `/=` `%=` `+=` `-=` `<<=` `>>=` `>>>=` `&=` `*=` |
 
-## 1.8 方法入门
+# 五、 方法入门
 
 我们在学习运算符的时候，都为每个运算符单独的创建一个新的类和main方法，我们会发现这样编写代码非常的繁琐，而且重复的代码过多。能否避免这些重复的代码呢，就需要使用方法来实现。
 
@@ -604,7 +609,7 @@ public static void main(String[] args) {
 
 当我们需要这个功能的时候，就可以去调用。这样即实现了代码的复用性，也解决了代码冗余的现象。
 
-### 1.8.1 方法的定义
+## 5.1 方法的定义
 
 定义格式：
 
@@ -628,7 +633,7 @@ public static void methodName() {
 }
 ```
 
-### 1.8.2 方法的调用
+## 5.2 方法的调用
 
 方法在定义完毕后，方法不会自己运行，必须被调用才能执行，我们可以在主方法main中来调用我们自己定义好的方法。在主方法中，直接写要调用的方法名字就可以调用了。
 
@@ -664,17 +669,13 @@ public class Demo {
 
 ```
 
-## 1.9 流程控制语句
+# 六、 流程控制语句
 
 在一个程序执行的过程中，各条语句的执行顺序对程序的结果是有直接影响的。也就是说，程序的流程对运行结果有直接的影响。所以，我们必须清楚每条语句的执行流程。而且，很多时候我们要通过控制语句的执行顺序来实现我们要完成的功能。
 
 ![](参考/07-顺序结构的流程图.png)
 
-### 1.9.1 判断语句
-
-
-
-#### 1.9.1.1 if语句
+## 6.1 if判断语句
 
 格式：
 
@@ -753,7 +754,7 @@ public static void main(String[] args) {
 
 
 
-#### 1.9.1.2 选择语句
+## 6.2 switch选择语句
 
 格式：
 
@@ -817,7 +818,7 @@ public static void main(String[] args) {
 
 switch语句中，表达式的数据类型，可以是`byte`，`short`，`int`，`char`，`enum`（枚举），JDK7后可以接收字符串。
 
-#### 1.9.1.3 for循环语句
+## 6.3 for循环语句
 
 循环语句可以在满足循环条件的情况下，反复执行某一段代码，这段被重复执行的代码被称为循环体语句，当反复执行这个循环体时，需要在合适的时候把循环判断条件修改为false，从而结束循环，否则循环将一直执行下去，形成死循环。
 
@@ -855,7 +856,7 @@ public static void main(String[] args) {
 }
 ```
 
-#### 1.9.1.4 while循环语句
+## 6.4 while循环语句
 
 格式：
 
@@ -890,10 +891,469 @@ public static void main(String[] args) {
 
 ```
 
-#### 1.9.1.5 do …while
+## 6.5 do …while循环语句
 
 格式：
 
-# 二、面向对象与封装
+```java
+初始化表达式①
+    do{
+        循环体③
+        步进表达式④
+    }while(布尔表达式②);
+```
 
-# 三、JAVA高级
+> do...while循环的特点：无条件执行一次循环体，即使我们将循环条件直接写成false，也依然会循环一次。
+
+- `for`和`while`的小区别：
+  - 控制条件语句所控制的那个变量，在for循环结束后，就不能再被访问到了，而while循环结束还可以继续使用，如果你想继续使用，就用while，否则推荐使用for。原因是for循环结束，该变量就从内存中消失，能够提高内存的使用效率。
+  - 在已知循环次数的时候使用推荐使用for，循环次数未知的时推荐使用while。
+
+## 6.6 中断语句
+
+###### break
+
+- **使用场景：终止switch或者循环**
+  - 在选择结构switch语句中
+  - 在循环语句中
+  - 离开使用场景的存在是没有意义的
+
+```java
+public static void main(String[] args) {
+    for (int i = 1; i<=10; i++) {
+        //需求:打印完两次HelloWorld之后结束循环
+        if(i == 3){
+            break;
+        }
+        System.out.println("HelloWorld"+i);
+    }
+}
+```
+
+
+
+###### continue
+
+- **使用场景：结束本轮循环，继续开始下一次循环**
+
+```java
+public static void main(String[] args) {
+    for (int i = 1; i <= 10; i++) {
+       //需求:不打印第三次HelloWorld
+        if(i == 3){
+            continue;
+        }
+        System.out.println("HelloWorld"+i);
+    }
+}
+```
+
+## 6.7 其他
+
+###### 死循环
+
+- 死循环：也就是循环中的条件永远为true，死循环的是永不结束的循环。例如：`while(true){}`和`for(;;){}`
+
+在后期的开发中，会出现使用死循环的场景，例如：我们需要读取用户输入的输入，但是用户输入多少数据我们并不清楚，也只能使用死循环，当用户不想输入数据了，就可以结束循环了，如何去结束一个死循环呢，就需要使用到跳出语句了。
+
+###### 嵌套循环
+
+- 所谓嵌套循环，是指一个循环的循环体是另一个循环。比如for循环里面还有一个for循环，就是嵌套循环。总共的循环次数=外循环次数*内循环次数
+- 例如：
+
+```java
+public static void main(String[] args) {
+    //5*8的矩形，打印5行*号，每行8个
+    //外循环5次，内循环8次
+    for(int i = 0; i < 5; i++){
+        for(int j = 0; j < 8; j++){
+            //不换行打印星号
+            System.out.print("*");
+        }
+        //内循环打印8个星号后，需要一次换行
+        System.out.println();
+    }
+}
+```
+
+每外循环一次，内循环多次。
+
+# 七、 JAVA入门
+
+## 7.1 常用软件推荐
+
+- IDE（Integrated Development Environment，集成开发环境）：用来提高开发效率
+  - 免费的IDE当中：Eclipse
+  - 收费的IDE当中：IntelliJ IDEA（Jetbrain全家桶值得拥有）
+- 记事本：
+  - notepad++（免费）
+  - Typora(免费，MarkDown记事本)
+- 文件索引工具：Everything（免费）
+- 项目管理工具：git
+
+**IEAD项目结构**
+
+![](参考/13-IDEA的项目结构.png)
+
+**IDEA常用快捷键**
+
+| 快捷键                   | 功能                                   |
+| ------------------------ | -------------------------------------- |
+| `Alt`+`Enter`            | 导入包，自动修正代码                   |
+| `Ctrl`+`Y`               | 删除光标所在行                         |
+| `Ctrl`+`D`               | 复制光标所在行的内容，插入光标位置下面 |
+| `Ctrl`+`Alt`+`L`         | 格式化代码                             |
+| `Ctrl`+`/`               | 单行注释                               |
+| `Ctrl`+`Shift`+`/`       | 选中代码注释，多行注释，再按取消注释   |
+| `Alt`+`Ins`              | 自动生成代码，toString，get，set等方法 |
+| `Alt`+`Shift`+`上下箭头` | 移动当前代码行                         |
+
+## 7.2 方法
+
+前面的课程中，使用过嵌套循环输出矩形，控制台打印出矩形就可以了，因此将方法定义为`void`，没有返回值。 在主方法`main`中直接被调用。
+
+```java
+public class Method_Demo1 {
+    public static void main(String[] args) {
+        print();
+    }
+    
+    private static void print() {
+        for (int i = 0; i < 5; i++) {
+            for (int j = 0; j < 8; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+}
+```
+
+`print`方法被`main`方法调用后直接输出结果，而`main`方法并不需要`print`方法的执行结果，所以被定义为`void`。
+
+### 7.2.1 定义方法的格式详解
+
+```java
+修饰符 返回值类型 方法名(参数列表){
+    //代码省略...
+    return 结果;
+}
+
+```
+
+- 修饰符： public static 固定写法
+- 返回值类型： 表示方法运行的结果的数据类型，方法执行后将结果返回到调用者
+- 参数列表：方法在运算过程中的未知数据，调用者调用方法时传递 return：将方法执行后的结果带给调用者，方法执行到`return`，整体方法运行结束
+
+>  小贴士：return 结果; 这里的"结果"在开发中，我们正确的叫法成为**方法的返回值**
+
+### 7.2.2 定义方法的两个明确
+
+- 需求：定义方法实现两个整数的求和计算。
+  - **明确返回值类型**：方法计算的是整数的求和，结果也必然是个整数，返回值类型定义为`int`类型。
+  - **明确参数列表**：计算哪两个整数的和，并不清楚，但可以确定是整数，参数列表可以定义两个`int`类型的变量，由调用者调用方法时传递
+
+```java
+public class Method_Demo2 {
+    public static void main(String[] args) {
+        // 调用方法getSum，传递两个整数，这里传递的实际数据又称为实际参数
+        // 并接收方法计算后的结果，返回值
+        int sum = getSum(5, 6);
+        System.out.println(sum);
+    }
+    /*
+    定义计算两个整数和的方法
+    返回值类型，计算结果是int
+    参数：不确定数据求和，定义int参数.参数又称为形式参数
+    */
+    public static int getSum(int a, int b) {
+        return a + b;
+    }
+}
+```
+
+程序执行，主方法`main`调用`getSum`方法，传递了实际数据`5`和`6`，两个变量`a`和`b`接收到的就是实际参数，并将计算后的结果返回，主方法`main`中的变量`sum`接收的就是方法的返回值。
+
+### 7.2.3 调用方法的流程图解
+
+![](参考/14-方法调用流程图解.png)
+
+### 7.2.4 练习
+
+**一：比较两个整数是否相同**
+
+- 分析：定义方法实现功能，需要有两个明确，即`返回值`和`参数列表`。
+  - 明确返回值：比较整数，比较的结果只有两种可能，相同或不同，因此结果是布尔类型，比较的结果相同为`true`。 
+  - 明确参数列表：比较的两个整数不确定，所以默认定义两个`int`类型的参数。
+
+```java
+public class Method_Demo3 {
+    public static void main(String[] args) {
+        //调用方法compare，传递两个整数
+        //并接收方法计算后的结果，布尔值
+        boolean bool = compare(3, 8);
+        System.out.println(bool);
+    }
+    /*
+    定义比较两个整数是否相同的方法
+    返回值类型，比较的结果布尔类型
+    参数：不确定参与比较的两个整数
+    */
+    public static boolean compare(int a, int b) {
+        if (a == b) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+}
+```
+
+**二：计算1+2+3...+100的和**
+
+- 分析：定义方法实现功能，需要有两个明确，即`返回值`和`参数`。
+  - 明确返回值：1~100的求和，计算后必然还是整数，返回值类型是`int` 
+  - 明确参数：需求中已知到计算的数据，没有未知的数据，不定义参数
+
+```java
+public class Method_Demo4 {
+    public static void main(String[] args) {
+        //调用方法getSum       
+        //并接收方法计算后的结果，整数
+        int sum = getSum();
+        System.out.println(sum);
+    }
+    /*
+    定义计算1~100的求和方法
+    返回值类型，计算结果整数int
+    参数：没有不确定数据
+    */
+    public static int getSum() {
+        //定义变量保存求和
+        int sum = 0;
+        //从1开始循环，到100结束
+        for (int i = 1; i <= 100; i++) {
+            sum = sum + i;
+        }
+        return sum;
+    }
+}
+```
+
+**三：实现不定次数打印**
+
+- 分析：定义方法实现功能，需要有两个明确，即`返回值`和`参数`。
+  - 明确返回值：方法中打印出`HelloWorld`即可，没有计算结果，返回值类型`void`。
+  - 明确参数：打印几次不清楚，参数定义一个整型参数
+
+```java
+public class Method_Demo5 {
+    public static void main(String[] args) {
+        //调用方法printHelloWorld，传递整数
+        printHelloWorld(9);
+    }
+    /*
+    定义打印HelloWorld方法
+    返回值类型，计算没有结果 void
+    参数：不确定打印几次
+    */
+    public static void printHelloWorld(int n) {
+        for (int i = 0; i < n; i++) {
+            System.out.println("HelloWorld");
+        }
+    }
+}
+```
+
+### 7.2.5 注意事项
+
+- 定义位置，类中方法外面。
+- 返回值类型，必须要和`return`语句返回的类型相同，否则编译失败 。
+
+```java
+// 返回值类型要求是int
+public static int getSum() {
+    return 5;// 正确，int类型
+    return 1.2;// 错误，类型不匹配
+    return true;// 错误，类型不匹配
+}
+```
+
+- 不能在`return`后面写代码，`return`意味着方法结束，所有后面的代码永远不会执行，属于无效代码。
+
+```java
+public static int getSum(int a,int b) {
+    return a + b;
+    System.out.println("Hello");// 错误，return已经结束，这里不会执行，无效代码
+}
+```
+
+### 7.2.6 方法调用
+
+- **直接调用：**直接写方法名调用
+
+```java
+public static void main(String[] args) {
+    print();
+}
+public static void print() {
+    System.out.println("方法被调用");
+}
+```
+
+
+
+- **赋值调用：**调用方法，在方法前面定义变量，接受方法返回值
+
+```java
+public static void main(String[] args) {
+    int sum = getSum(5,6);
+    System.out.println(sum);
+}
+public static int getSum(int a,int b) {
+    return a + b;
+}
+```
+
+
+
+- **输出语句调用：**
+
+  - 在输出语句中调用方法，`System.out.println(方法名())`。
+  
+  ```java
+  public static void main(String[] args) {
+      System.out.println(getSum(5,6));
+  }
+  public static int getSum(int a,int b) {
+      return a + b;
+  }
+  
+  ```
+  
+  
+  
+  - 不能用输出语句调用`void`类型的方法。因为方法执行后没有结果，也就打印不出任何内容。
+  
+  ```java
+  public static void main(String[] args) {
+      System.out.println(printHello());// 错误，不能输出语句调用void类型方法
+  }
+  public static void printHello() {
+      System.out.println("Hello");
+  }
+  ```
+
+## 7.3方法重载
+
+- **方法重载**：指在同一个类中，允许存在一个以上的同名方法，只要它们的参数列表不同即可，与修饰符和返回值类型无关。
+- 参数列表：个数不同，数据类型不同，顺序不同。
+- 重载方法调用：JVM通过方法的参数列表，调用不同的方法。
+
+**练习一**
+
+比较两个数据是否相等。参数类型分别为两个`byte`类型，两个`short`类型，两个`int`类型，两个`long`类型，并在`main`方法中进行测试。
+
+```java
+public class Method_Demo6 {
+    public static void main(String[] args) {
+        //定义不同数据类型的变量
+        byte a = 10;       
+        byte b = 20;
+        short c = 10;
+        short d = 20;
+        int e = 10;
+        int f = 10;
+        long g = 10;
+        long h = 20;
+        // 调用
+        System.out.println(compare(a, b));
+        System.out.println(compare(c, d));
+        System.out.println(compare(e, f));
+        System.out.println(compare(g, h));
+    }
+    // 两个byte类型的
+    public static boolean compare(byte a, byte b) {
+        System.out.println("byte");
+        return a == b;
+    }
+    // 两个short类型的
+    public static boolean compare(short a, short b) {
+        System.out.println("short");
+        return a == b;
+    }
+    // 两个int类型的
+    public static boolean compare(int a, int b) {
+        System.out.println("int");
+        return a == b;
+    }
+    // 两个long类型的
+    public static boolean compare(long a, long b) {
+        System.out.println("long");
+        return a == b;
+    }
+}
+```
+
+**练习二**
+
+判断哪些方法是重载关系。
+
+```java
+public static void open(){}
+public static void open(int a){}
+static void open(int a,int b){}
+public static void open(double a,int b){}
+public static void open(int a,double b){}
+public void open(int i,double d){}
+public static void OPEN(){}
+public static void open(int i,int j){}
+```
+
+**练习三**
+
+模拟输出语句中的`println`方法效果，传递什么类型的数据就输出什么类型的数据，只允许定义一个方法名`println`。
+
+```java
+public class Method_Demo7 {
+    public static void println(byte a) {
+        System.out.println(a);
+    }
+   
+    public static void println(short a) {
+        System.out.println(a);
+    }
+    
+    public static void println(int a) {
+        System.out.println(a);
+    }
+    
+    public static void println(long a) {
+        System.out.println(a);
+    }
+    
+    public static void println(float a) {
+        System.out.println(a);
+    }
+    
+    public static void println(double a) {
+        System.out.println(a);
+    }
+    
+    public static void println(char a) {
+        System.out.println(a);
+    }
+    
+    public static void println(boolean a) {
+        System.out.println(a);
+    }
+    
+    public static void println(String a) {
+        System.out.println(a);
+    }
+}
+
+```
+
+# 八、数组
+
