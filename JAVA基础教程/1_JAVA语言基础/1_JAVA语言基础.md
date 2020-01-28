@@ -27,7 +27,7 @@
   - 6.2 [switch选择语句](#6.2-switch选择语句)
   - 6.3 [for循环语句](#6.3-for循环语句)
   - 6.4 [while循环语句](#6.4-while循环语句)
-  - 6.5 [do …while循环语句](#6.5-do …while循环语句)
+  - 6.5 [do…while循环语句](#6.5-do…while循环语句)
   - 6.6 [中断语句](#6.6-中断语句)
   - 6.7 [其他](#6.7-其他)
 
@@ -933,7 +933,7 @@ public static void main(String[] args) {
 
 ```
 
-## 6.5 do …while循环语句
+## 6.5 do…while循环语句
 
 格式：
 
