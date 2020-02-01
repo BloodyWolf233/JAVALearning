@@ -1,5 +1,6 @@
 # Java自学
 
-整理自其他教程
+笔记：
 
-[JAVA基础教程](JAVA基础教程/1_Java基础.md)
+第一卷：[JAVA基础](JAVA基础/1_Java基础.md)
+
