@@ -18,7 +18,7 @@ public class MyClass /*extends Object*/ {
 }
 ```
 
-根据JDK源代码及Object类的API文档，Object类当中包含的方法有11个。今天我们主要学习其中的2个：
+根据JDK源代码及Object类的API文档，Object类当中包含的方法有11个。本章我们主要学习其中的2个：
 
 * `public String toString()`：返回该对象的字符串表示。
 * `public boolean equals(Object obj)`：指示其他某个对象是否与此对象“相等”。
