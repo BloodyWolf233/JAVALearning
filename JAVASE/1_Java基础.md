@@ -2,7 +2,7 @@
 
 ##### 一、[计算机基础知识](1_JAVALanguage/notes/01计算机基础知识.md)
 
-##### 二、[JAVA语言开发环境](1_JAVA语言基础/notes/02JAVA语言开发环境.md)
+##### 二、[JAVA语言开发环境](1_JAVALanguage/notes/02JAVA语言开发环境.md)
 
 2.1 Java虚拟机——JVM
 
