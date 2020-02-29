@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Advanced/Advanced.iml" filepath="$PROJECT_DIR$/Advanced/Advanced.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ajax&amp;Json/Ajax&amp;Json.iml" filepath="$PROJECT_DIR$/Ajax&amp;Json/Ajax&amp;Json.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Base/Base.iml" filepath="$PROJECT_DIR$/Base/Base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JQuery.iml" filepath="$PROJECT_DIR$/JQuery.iml" />
+    </modules>
+  </component>
+</project>

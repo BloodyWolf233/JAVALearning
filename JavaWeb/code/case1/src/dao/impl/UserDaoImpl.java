@@ -83,8 +83,8 @@ public class UserDaoImpl implements UserDao {
                 params.add("%"+value+"%");//？条件的值
             }
         }
-        System.out.println(sb.toString());
-        System.out.println(params);
+        //System.out.println(sb.toString());
+        //System.out.println(params);
 
         return template.queryForObject(sb.toString(),Integer.class,params.toArray());
     }
@@ -121,8 +121,8 @@ public class UserDaoImpl implements UserDao {
         params.add(start);
         params.add(rows);
         sql = sb.toString();
-        System.out.println(sql);
-        System.out.println(params);
+        //System.out.println(sql);
+        //System.out.println(params);
 
         return template.query(sql,new BeanPropertyRowMapper<User>(User.class),params.toArray());
     }

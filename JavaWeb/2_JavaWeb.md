@@ -63,3 +63,35 @@
 6.2 jsp
 
 6.3 综合案例
+
+##### 七、 [jQuery](/notes/07jquery.md)
+
+7.1 JQuery基础
+
+7.2 JQuery
+
+7.3 AJAX
+
+7.4 JSON
+
+##### 八、 [Redis（一种nosql数据库）](/notes/08Redis.md)
+
+8.1 概念
+
+8.2 操作
+
+##### 九、 [Maven](/notes/09Maven.md)
+
+9.1 介绍
+
+9.2 Maven的作用
+
+9.3 Maven的使用
+
+9.4 Maven仓库
+
+9.5 Maven常用命令
+
+9.6 idea开发maven项目
+
+##### 十、[综合案例](/notes/10Travel.md)
