@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/heixin-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/heixin-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/heixin-goods-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/heixin-item" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/heixin-item/heixin-item-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/heixin-item/heixin-item-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/heixin-registry" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/heixin-search" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/heixin-upload" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/heixin-user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/heixin-user/heixin-user-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/heixin-user/heixin-user-service" charset="UTF-8" />
+  </component>
+</project>

@@ -7,9 +7,9 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>ITCAST - AdminLTE2定制版</title>
-<meta name="description" content="AdminLTE2定制版">
-<meta name="keywords" content="AdminLTE2定制版">
+<title>DEMO - 企业权限管理系统DEMO</title>
+<meta name="description" content="企业权限管理系统DEMO">
+<meta name="keywords" content="企业权限管理系统DEMO">
 
 <!-- Tell the browser to be responsive to screen width -->
 <meta
@@ -152,8 +152,8 @@
 		<div class="pull-right hidden-xs">
 			<b>Version</b> 1.0.8
 		</div>
-		<strong>Copyright &copy; 2014-2017 <a
-			href="http://www.itcast.cn">研究院研发部</a>.
+		<strong>Copyright &copy; 1664-5327 <a
+			href="">demo</a>.
 		</strong> All rights reserved. </footer>
 		<!-- 底部导航 /-->
 

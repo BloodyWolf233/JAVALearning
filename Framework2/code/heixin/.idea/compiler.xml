@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="heixin-item-interface" />
+        <module name="heixin-goods-web" />
+        <module name="heixin-registry" />
+        <module name="heixin-item-service" />
+        <module name="heixin-upload" />
+        <module name="heixin-common" />
+        <module name="heixin-user-interface" />
+        <module name="heixin-gateway" />
+        <module name="heixin-search" />
+        <module name="heixin-user-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="heixin" target="1.8" />
+      <module name="heixin-common" target="1.8" />
+      <module name="heixin-gateway" target="1.8" />
+      <module name="heixin-goods-web" target="1.8" />
+      <module name="heixin-item" target="1.8" />
+      <module name="heixin-item-interface" target="1.8" />
+      <module name="heixin-item-service" target="1.8" />
+      <module name="heixin-registry" target="1.8" />
+      <module name="heixin-search" target="1.8" />
+      <module name="heixin-upload" target="1.8" />
+      <module name="heixin-user" target="1.8" />
+      <module name="heixin-user-interface" target="1.8" />
+      <module name="heixin-user-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="heixin" options="-parameters" />
+      <module name="heixin-common" options="-parameters" />
+      <module name="heixin-gateway" options="-parameters" />
+      <module name="heixin-goods-web" options="-parameters" />
+      <module name="heixin-item-interface" options="-parameters" />
+      <module name="heixin-item-service" options="-parameters" />
+      <module name="heixin-registry" options="-parameters" />
+      <module name="heixin-search" options="-parameters" />
+      <module name="heixin-upload" options="-parameters" />
+      <module name="heixin-user-interface" options="-parameters" />
+      <module name="heixin-user-service" options="-parameters" />
+    </option>
+  </component>
+</project>

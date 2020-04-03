@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/heixin.iml" filepath="$PROJECT_DIR$/heixin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/heixin-common/heixin-common.iml" filepath="$PROJECT_DIR$/heixin-common/heixin-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/heixin-gateway/heixin-gateway.iml" filepath="$PROJECT_DIR$/heixin-gateway/heixin-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/heixin-goods-web/heixin-goods-web.iml" filepath="$PROJECT_DIR$/heixin-goods-web/heixin-goods-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/heixin-item/heixin-item.iml" filepath="$PROJECT_DIR$/heixin-item/heixin-item.iml" />
+      <module fileurl="file://$PROJECT_DIR$/heixin-item/heixin-item-interface/heixin-item-interface.iml" filepath="$PROJECT_DIR$/heixin-item/heixin-item-interface/heixin-item-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/heixin-item/heixin-item-service/heixin-item-service.iml" filepath="$PROJECT_DIR$/heixin-item/heixin-item-service/heixin-item-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/heixin-registry/heixin-registry.iml" filepath="$PROJECT_DIR$/heixin-registry/heixin-registry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/heixin-search/heixin-search.iml" filepath="$PROJECT_DIR$/heixin-search/heixin-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/heixin-upload/heixin-upload.iml" filepath="$PROJECT_DIR$/heixin-upload/heixin-upload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/heixin-user/heixin-user.iml" filepath="$PROJECT_DIR$/heixin-user/heixin-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/heixin-user/heixin-user-interface/heixin-user-interface.iml" filepath="$PROJECT_DIR$/heixin-user/heixin-user-interface/heixin-user-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/heixin-user/heixin-user-service/heixin-user-service.iml" filepath="$PROJECT_DIR$/heixin-user/heixin-user-service/heixin-user-service.iml" />
+    </modules>
+  </component>
+</project>
