@@ -56,7 +56,7 @@
 
 5.5 Servlet
 
-##### 六、[Java Server Pages](/notes/06JSP.md)
+##### 六、[Java Server Pages](notes/06JSP.md)
 
 6.1 会话技术
 
@@ -64,7 +64,7 @@
 
 6.3 综合案例
 
-##### 七、 [jQuery](/notes/07jquery.md)
+##### 七、 [jQuery](notes/07jquery.md)
 
 7.1 JQuery基础
 
@@ -74,13 +74,13 @@
 
 7.4 JSON
 
-##### 八、 [Redis（一种nosql数据库）](/notes/08Redis.md)
+##### 八、 [Redis（一种nosql数据库）](notes/08Redis.md)
 
 8.1 概念
 
 8.2 操作
 
-##### 九、 [Maven](/notes/09Maven.md)
+##### 九、 [Maven](notes/09Maven.md)
 
 9.1 介绍
 
@@ -94,4 +94,4 @@
 
 9.6 idea开发maven项目
 
-##### 十、[综合案例](/notes/10Travel.md)
+##### 十、[综合案例](notes/10Travel.md)
